@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #444;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.principal {
+    background-color: #222;
+    height: 100px;
+}
+
+.principal>ul {
+    border: 2px solid white;
+}
+
+.principal>ul.aplicatii, 
+.principal>ul.reserse
+{
+    float: left;
+}
+.principal.ul.aplicatii{
+    float: right;
+}
